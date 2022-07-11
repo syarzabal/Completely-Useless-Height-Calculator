@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainStageController">
+   <children>
+      <Button id="calculateButton" fx:id="calculateButton" layoutX="268.0" layoutY="188.0" mnemonicParsing="false" onAction="#calculateHeight" text="Calculate" />
+      <TextField id="heightInputTextField" fx:id="heightInputTextField" layoutX="226.0" layoutY="154.0" promptText="Input your height in cm" />
+      <Label id="resultLabel" fx:id="resultLabel" layoutX="240.0" layoutY="231.0" prefHeight="17.0" prefWidth="121.0" text="Your height is 222 cm" />
+   </children>
+</AnchorPane>
